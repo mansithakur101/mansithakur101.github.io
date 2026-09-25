@@ -1,0 +1,38 @@
+{
+  "skins": [
+    {
+      "id": "lava",
+      "name": "Lava",
+      "blurb": "Hot off the core",
+      "style": "marble",
+      "price": 2500,
+      "from": "2026-10-02T08:00",
+      "palette": ["#7A4B3A", "#B8604A", "#E2553A", "#FF6F3C", "#FF8E3C", "#FFAA3C", "#FFC34D", "#FFD86B", "#FFE88F", "#FFF4C2"]
+    },
+    {
+      "id": "koi",
+      "name": "Koi",
+      "blurb": "Painted fish scales",
+      "style": "images",
+      "rev": 1,
+      "ads": 5,
+      "price": 1800,
+      "from": "2026-10-09T08:00",
+      "until": "2026-10-30T08:00",
+      "palette": ["#F4EEE4", "#FFD9C2", "#FF9E7A", "#FF7A59", "#E8563A", "#F2C063", "#FFFFFF", "#3E8EF0", "#1F2A44", "#FFD34D"]
+    }
+  ],
+  "boxes": [
+    {
+      "id": "volcano",
+      "name": "Volcano",
+      "blurb": "Glowing embers",
+      "kind": "Stars",
+      "price": 1800,
+      "from": "2026-10-02T08:00",
+      "fill": "#1a0806", "rim": "#FF6F3C", "rimAlpha": 0.45,
+      "pattern": "#FFB36B", "patternAlpha": 0.35,
+      "skyTop": "#6b2414", "skyMid": "#2e0e08", "skyBottom": "#120504"
+    }
+  ]
+}

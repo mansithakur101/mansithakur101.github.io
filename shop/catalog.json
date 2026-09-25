@@ -1,4 +1,14 @@
 {
-  "skins": [],
+  "skins": [
+    {
+      "id": "gems",
+      "name": "Gems",
+      "blurb": "Cut from jewels",
+      "style": "marble",
+      "price": 2500,
+      "from": "2026-09-25",
+      "palette": ["#9CA3B8", "#E8E4F0", "#E0304E", "#2F6BFF", "#1FC98A", "#8E4BFF", "#FFB627", "#FF7A2F", "#3FD8F0", "#FFE45C"]
+    }
+  ],
   "boxes": []
 }

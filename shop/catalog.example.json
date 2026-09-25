@@ -7,7 +7,18 @@
       "style": "marble",
       "price": 2500,
       "from": "2026-10-02T08:00",
-      "palette": ["#7A4B3A", "#B8604A", "#E2553A", "#FF6F3C", "#FF8E3C", "#FFAA3C", "#FFC34D", "#FFD86B", "#FFE88F", "#FFF4C2"]
+      "palette": [
+        "#7A4B3A",
+        "#B8604A",
+        "#E2553A",
+        "#FF6F3C",
+        "#FF8E3C",
+        "#FFAA3C",
+        "#FFC34D",
+        "#FFD86B",
+        "#FFE88F",
+        "#FFF4C2"
+      ]
     },
     {
       "id": "koi",
@@ -19,7 +30,23 @@
       "price": 1800,
       "from": "2026-10-09T08:00",
       "until": "2026-10-30T08:00",
-      "palette": ["#F4EEE4", "#FFD9C2", "#FF9E7A", "#FF7A59", "#E8563A", "#F2C063", "#FFFFFF", "#3E8EF0", "#1F2A44", "#FFD34D"]
+      "palette": [
+        "#F4EEE4",
+        "#FFD9C2",
+        "#FF9E7A",
+        "#FF7A59",
+        "#E8563A",
+        "#F2C063",
+        "#FFFFFF",
+        "#3E8EF0",
+        "#1F2A44",
+        "#FFD34D"
+      ],
+      "shapes": [
+        "hexagon",
+        "square",
+        "triangle"
+      ]
     }
   ],
   "boxes": [
@@ -30,9 +57,59 @@
       "kind": "Stars",
       "price": 1800,
       "from": "2026-10-02T08:00",
-      "fill": "#1a0806", "rim": "#FF6F3C", "rimAlpha": 0.45,
-      "pattern": "#FFB36B", "patternAlpha": 0.35,
-      "skyTop": "#6b2414", "skyMid": "#2e0e08", "skyBottom": "#120504"
+      "fill": "#1a0806",
+      "rim": "#FF6F3C",
+      "rimAlpha": 0.45,
+      "pattern": "#FFB36B",
+      "patternAlpha": 0.35,
+      "skyTop": "#6b2414",
+      "skyMid": "#2e0e08",
+      "skyBottom": "#120504"
+    }
+  ],
+  "pieceSets": [
+    {
+      "id": "vehicles",
+      "name": "Vehicles",
+      "rev": 1,
+      "upright": true,
+      "names": [
+        "Bicycle",
+        "Scooter",
+        "Motorbike",
+        "Car",
+        "SUV",
+        "Van",
+        "Pickup",
+        "Bus",
+        "Truck",
+        "Road train"
+      ],
+      "palette": [
+        "#9CA3B8",
+        "#E8E4F0",
+        "#E0304E",
+        "#2F6BFF",
+        "#1FC98A",
+        "#8E4BFF",
+        "#FFB627",
+        "#FF7A2F",
+        "#3FD8F0",
+        "#FFE45C"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "week": "2026-10-12",
+      "name": "Rush Hour",
+      "blurb": "Bicycles up to road trains",
+      "colorA": "#FFB627",
+      "colorB": "#2F6BFF",
+      "art": 7,
+      "pieces": "vehicles",
+      "drops": 50,
+      "typical": 400
     }
   ]
 }

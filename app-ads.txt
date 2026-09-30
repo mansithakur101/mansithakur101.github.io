@@ -1,4 +1,4 @@
-# app-ads.txt for Honest Pixels (Stardrop)
+# app-ads.txt for Honest Pixels (Stardrop, Cupcake Jam)
 
 # Google AdMob
 google.com, pub-8174941970307212, DIRECT, f08c47fec0942fa0
